@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                touch /etc/rahul
+                sh "touch /etc/rahul"
             }
         }
     }
